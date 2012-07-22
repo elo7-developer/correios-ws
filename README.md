@@ -29,7 +29,7 @@ package_data = Correios::PackageData.new do |p|
   p.largura = '45'
 end
 
- calculator.calculate(cep_origem, cep_destino, package_date, array_with_services)
+# calculator.calculate(cep_origem, cep_destino, package_date, array_with_services)
 result = calculator.calculate('08061-430','08061-456', package_data, [
       Correios::Servicos::PAC_SEM_CONTRATO,
       Correios::Servicos::PAC_COM_CONTRATO,
